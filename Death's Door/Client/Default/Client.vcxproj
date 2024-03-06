@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC22E561-F290-44BB-8C8C-4819FED9E420}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>..\Bin\</IntDir>
+    <IncludePath>C:\Users\lhjzz\OneDrive\바탕 화면\Death%27s Door\Client\Bin;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\lhjzz\OneDrive\바탕 화면\Death%27s Door\Client\Bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>..\Bin\</IntDir>
+    <IncludePath>C:\Users\lhjzz\OneDrive\바탕 화면\Death%27s Door\Client\Bin;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\lhjzz\OneDrive\바탕 화면\Death%27s Door\Client\Bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../../Reference/Headers/;../../Reference/Headers/Imgui/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../../Reference/Headers/;../../Reference/Headers/Imgui/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Bin\ShaderFiles\Shader_Client_Defines.h" />
+    <ClInclude Include="..\public\BackGround.h" />
+    <ClInclude Include="..\public\BlobMonster.h" />
+    <ClInclude Include="..\public\BlobMonster_State.h" />
+    <ClInclude Include="..\public\Camera_Dynamic.h" />
+    <ClInclude Include="..\public\Client_Defines.h" />
+    <ClInclude Include="..\public\CubeBox.h" />
+    <ClInclude Include="..\public\Door.h" />
+    <ClInclude Include="..\public\Effect.h" />
+    <ClInclude Include="..\public\Fance.h" />
+    <ClInclude Include="..\public\FanceBar.h" />
+    <ClInclude Include="..\public\Floor.h" />
+    <ClInclude Include="..\public\GrimacerMonster.h" />
+    <ClInclude Include="..\public\Grimacer_State.h" />
+    <ClInclude Include="..\public\HpBar.h" />
+    <ClInclude Include="..\public\Hp_Empty.h" />
+    <ClInclude Include="..\public\Icon_Arrow.h" />
+    <ClInclude Include="..\public\Icon_Fireball.h" />
+    <ClInclude Include="..\public\ImGui_Manager_Client.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui_Navigation.h" />
+    <ClInclude Include="..\public\Level_Control.h" />
+    <ClInclude Include="..\public\Level_GamePlay.h" />
+    <ClInclude Include="..\public\Level_Loading.h" />
+    <ClInclude Include="..\public\Level_Logo.h" />
+    <ClInclude Include="..\public\Loader.h" />
+    <ClInclude Include="..\public\LoadingBackGround.h" />
+    <ClInclude Include="..\public\LoadingImage.h" />
+    <ClInclude Include="..\public\MainApp.h" />
+    <ClInclude Include="..\public\MiddleBoss.h" />
+    <ClInclude Include="..\public\MiddleBoss_State.h" />
+    <ClInclude Include="..\public\Monster.h" />
+    <ClInclude Include="..\public\Monster_Arrow.h" />
+    <ClInclude Include="..\public\Monster_State.h" />
+    <ClInclude Include="..\public\NaviCube.h" />
+    <ClInclude Include="..\public\Object_Builder.h" />
+    <ClInclude Include="..\public\Pillar.h" />
+    <ClInclude Include="..\public\PlantMonster.h" />
+    <ClInclude Include="..\public\Plant_State.h" />
+    <ClInclude Include="..\public\Player.h" />
+    <ClInclude Include="..\public\Player_State.h" />
+    <ClInclude Include="..\public\SkillBox.h" />
+    <ClInclude Include="..\public\SkillBoxUp.h" />
+    <ClInclude Include="..\public\SkyBox.h" />
+    <ClInclude Include="..\public\StageMap.h" />
+    <ClInclude Include="..\public\Stairs.h" />
+    <ClInclude Include="..\public\Stairs02.h" />
+    <ClInclude Include="..\public\Static_Camera.h" />
+    <ClInclude Include="..\public\Sword_Slash.h" />
+    <ClInclude Include="..\public\Terrain.h" />
+    <ClInclude Include="..\public\Wall03.h" />
+    <ClInclude Include="..\public\Wall04.h" />
+    <ClInclude Include="..\public\Weapon.h" />
+    <ClInclude Include="..\public\WeaponBigBox.h" />
+    <ClInclude Include="..\public\WeaponBoxUp.h" />
+    <ClInclude Include="..\public\WeaponNoBox.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\private\BackGround.cpp" />
+    <ClCompile Include="..\private\BlobMonster.cpp" />
+    <ClCompile Include="..\private\BlobMonster_State.cpp" />
+    <ClCompile Include="..\private\Camera_Dynamic.cpp" />
+    <ClCompile Include="..\private\CubeBox.cpp" />
+    <ClCompile Include="..\private\Door.cpp" />
+    <ClCompile Include="..\private\Effect.cpp" />
+    <ClCompile Include="..\private\Fance.cpp" />
+    <ClCompile Include="..\private\FanceBar.cpp" />
+    <ClCompile Include="..\private\Floor.cpp" />
+    <ClCompile Include="..\private\GrimacerMonster.cpp" />
+    <ClCompile Include="..\private\Grimacer_State.cpp" />
+    <ClCompile Include="..\private\HpBar.cpp" />
+    <ClCompile Include="..\private\Hp_Empty.cpp" />
+    <ClCompile Include="..\private\Icon_Arrow.cpp" />
+    <ClCompile Include="..\private\Icon_Fireball.cpp" />
+    <ClCompile Include="..\private\ImGui_Manager_Client.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\private\ImGui_Navigation.cpp" />
+    <ClCompile Include="..\private\Level_Control.cpp" />
+    <ClCompile Include="..\private\Level_GamePlay.cpp" />
+    <ClCompile Include="..\private\Level_Loading.cpp" />
+    <ClCompile Include="..\private\Level_Logo.cpp" />
+    <ClCompile Include="..\private\Loader.cpp" />
+    <ClCompile Include="..\private\LoadingBackGround.cpp" />
+    <ClCompile Include="..\private\LoadingImage.cpp" />
+    <ClCompile Include="..\private\MainApp.cpp" />
+    <ClCompile Include="..\private\MiddleBoss.cpp" />
+    <ClCompile Include="..\private\MiddleBoss_State.cpp" />
+    <ClCompile Include="..\private\Monster.cpp" />
+    <ClCompile Include="..\private\Monster_Arrow.cpp" />
+    <ClCompile Include="..\private\Monster_State.cpp" />
+    <ClCompile Include="..\private\NaviCube.cpp" />
+    <ClCompile Include="..\private\Object_Builder.cpp" />
+    <ClCompile Include="..\private\Pillar.cpp" />
+    <ClCompile Include="..\private\PlantMonster.cpp" />
+    <ClCompile Include="..\private\Plant_State.cpp" />
+    <ClCompile Include="..\private\Player.cpp" />
+    <ClCompile Include="..\private\Player_State.cpp" />
+    <ClCompile Include="..\private\SkillBox.cpp" />
+    <ClCompile Include="..\private\SkillBoxUp.cpp" />
+    <ClCompile Include="..\private\SkyBox.cpp" />
+    <ClCompile Include="..\private\StageMap.cpp" />
+    <ClCompile Include="..\private\Stairs.cpp" />
+    <ClCompile Include="..\private\Stairs02.cpp" />
+    <ClCompile Include="..\private\Static_Camera.cpp" />
+    <ClCompile Include="..\private\Sword_Slash.cpp" />
+    <ClCompile Include="..\private\Terrain.cpp" />
+    <ClCompile Include="..\private\Wall03.cpp" />
+    <ClCompile Include="..\private\Wall04.cpp" />
+    <ClCompile Include="..\private\Weapon.cpp" />
+    <ClCompile Include="..\private\WeaponBigBox.cpp" />
+    <ClCompile Include="..\private\WeaponBoxUp.cpp" />
+    <ClCompile Include="..\private\WeaponNoBox.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Dissolve.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Hp_Empty.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Icon_Arrow.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Icon_Fireball.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SkillBar.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SkillBoxUp.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_UIHpBar.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VertexSquare.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_UI_BackGround.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_UI_BackImage.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimModel.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxModel.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_WeaponBox.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_WeaponBoxBig.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_WeaponBoxUp.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

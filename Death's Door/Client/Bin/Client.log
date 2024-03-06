@@ -1,0 +1,67 @@
+﻿빌드 시작: 2024-03-04 오후 10:37:17
+     1>2 노드의 "C:\Users\lhjzz\OneDrive\바탕 화면\공부\Death's Door\Client\Default\Client.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../Public/ /I../../Reference/Headers/ /I../../Reference/Headers/Imgui/ /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"..\Bin\Client.pch" /Fo"..\Bin\\" /Fd"..\Bin\vc140.pdb" /Gd /TP /errorReport:prompt ..\private\Level_GamePlay.cpp
+         Level_GamePlay.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Client.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../Reference/Librarys/ Engine.lib DirectXTKd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\Bin\Client.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\Client.lib" /MACHINE:X64 ..\Bin\Client.res
+         ..\Bin\BackGround.obj
+         ..\Bin\BlobMonster.obj
+         ..\Bin\BlobMonster_State.obj
+         ..\Bin\Camera_Dynamic.obj
+         ..\Bin\CubeBox.obj
+         ..\Bin\Door.obj
+         ..\Bin\Effect.obj
+         ..\Bin\Fance.obj
+         ..\Bin\FanceBar.obj
+         ..\Bin\Floor.obj
+         ..\Bin\GrimacerMonster.obj
+         ..\Bin\Grimacer_State.obj
+         ..\Bin\HpBar.obj
+         ..\Bin\Hp_Empty.obj
+         ..\Bin\Icon_Arrow.obj
+         ..\Bin\Icon_Fireball.obj
+         ..\Bin\ImGui_Navigation.obj
+         ..\Bin\Level_Control.obj
+         ..\Bin\Level_GamePlay.obj
+         ..\Bin\Level_Loading.obj
+         ..\Bin\Level_Logo.obj
+         ..\Bin\Loader.obj
+         ..\Bin\LoadingBackGround.obj
+         ..\Bin\LoadingImage.obj
+         ..\Bin\MainApp.obj
+         ..\Bin\MiddleBoss.obj
+         ..\Bin\MiddleBoss_State.obj
+         ..\Bin\Monster.obj
+         ..\Bin\Monster_Arrow.obj
+         ..\Bin\Monster_State.obj
+         ..\Bin\NaviCube.obj
+         ..\Bin\Object_Builder.obj
+         ..\Bin\Pillar.obj
+         ..\Bin\PlantMonster.obj
+         ..\Bin\Plant_State.obj
+         ..\Bin\Player.obj
+         ..\Bin\Player_State.obj
+         ..\Bin\SkillBox.obj
+         ..\Bin\SkillBoxUp.obj
+         ..\Bin\SkyBox.obj
+         ..\Bin\StageMap.obj
+         ..\Bin\Stairs.obj
+         ..\Bin\Stairs02.obj
+         ..\Bin\Static_Camera.obj
+         ..\Bin\Sword_Slash.obj
+         ..\Bin\Terrain.obj
+         ..\Bin\Wall03.obj
+         ..\Bin\Wall04.obj
+         ..\Bin\Weapon.obj
+         ..\Bin\WeaponBigBox.obj
+         ..\Bin\WeaponBoxUp.obj
+         ..\Bin\WeaponNoBox.obj
+         ..\Bin\Client.obj
+         ..\Bin\stdafx.obj
+         Client.vcxproj -> C:\Users\lhjzz\OneDrive\바탕 화면\공부\Death's Door\Client\Default\..\Bin\Client.exe
+     1>"C:\Users\lhjzz\OneDrive\바탕 화면\공부\Death's Door\Client\Default\Client.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.46
